@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Chrome-Core-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"text",
+		"language",
+		"pitch",
+		"rate",
+		"voiceURI",
+		"volume"
+	],
+	"name" : "ChromeSpeechUtterance",
+	"type" : "normal"
+}

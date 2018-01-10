@@ -4,5 +4,5 @@ sendMessage: aMessage
 	| webSocket |
 	webSocket := ZnWebSocket to: self webSocketDebuggerUrl.
 	^[ webSocket 
-  	  sendMessage: aMessage;
+  	  sendMessage: (NeoJSONWriter toString: aMessage);
     	readMessage ] ensure: [ webSocket close ].

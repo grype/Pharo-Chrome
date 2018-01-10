@@ -1,8 +1,3 @@
 operating
 evaluate: aString
-
-	^self sendMessage: ('\{
-        "id": 1,
-        "method": "Runtime.evaluate",
-        "params": \{"expression": "{1}"}
-      }' format: {aString})
+	^ self evaluate: aString returnByValue: false generatePreview: false

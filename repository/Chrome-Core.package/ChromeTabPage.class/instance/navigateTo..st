@@ -1,8 +1,11 @@
 operating
 navigateTo: anURL
-
-	^self sendMessage: ('\{
-        "id": 1,
-        "method": "Page.navigate",
-        "params": \{"url": "{1}"}
-      }' format: {anURL})
+	^ self
+		sendMessage:
+			(ChromeMessage new
+				method: 'Page.navigate';
+				params:
+					(Dictionary new
+						at: url put: anURL;
+						yourself);
+				yourself)

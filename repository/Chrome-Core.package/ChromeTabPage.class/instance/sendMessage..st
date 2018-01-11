@@ -1,8 +1,11 @@
 utilities
 sendMessage: aMessage
-
-	| webSocket |
+	| webSocket response |
 	webSocket := ZnWebSocket to: self webSocketDebuggerUrl.
-	^[ webSocket 
-  	  sendMessage: (NeoJSONWriter toString: aMessage);
-    	readMessage ] ensure: [ webSocket close ].
+	response := [ webSocket
+		sendMessage: (NeoJSONWriter toString: aMessage);
+		readMessage ]
+		ensure: [ webSocket close ].
+	^ ([ NeoJSONReader fromString: response ]
+		on: Error
+		do: nil) ifNotNil: [ :json | json at: 'result' ]

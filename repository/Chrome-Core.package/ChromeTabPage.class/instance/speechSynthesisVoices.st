@@ -1,4 +1,4 @@
-operating
+speech
 speechSynthesisVoices
 	^ self
 		evaluate:

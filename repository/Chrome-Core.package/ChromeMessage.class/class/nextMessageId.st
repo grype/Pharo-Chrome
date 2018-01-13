@@ -1,3 +1,3 @@
-as yet unclassified
+identity
 nextMessageId
 	^ LastMessageId := LastMessageId + 1

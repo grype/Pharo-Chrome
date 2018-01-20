@@ -6,6 +6,4 @@ sendMessage: aMessage
 		sendMessage: (NeoJSONWriter toString: aMessage);
 		readMessage ]
 		ensure: [ webSocket close ].
-	^ ([ NeoJSONReader fromString: response ]
-		on: Error
-		do: nil) ifNotNil: [ :json | json at: 'result' ]
+	^ self processMessageResponse: response

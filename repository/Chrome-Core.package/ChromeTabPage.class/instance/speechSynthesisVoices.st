@@ -1,6 +1,6 @@
 speech
 speechSynthesisVoices
-	^ self
+	^ self runtime
 		evaluate:
 			'speechSynthesis.getVoices().map((v)=>{
 				return {
@@ -11,5 +11,3 @@ speechSynthesisVoices
 					"voiceURI": v.voiceURI
 				}
 			})'
-		returnByValue: true
-		generatePreview: false

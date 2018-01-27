@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MJBasicJsonWriter",
+	"category" : "Chrome-Core-Utilities",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ChromeJsonWriter",
+	"type" : "normal"
+}

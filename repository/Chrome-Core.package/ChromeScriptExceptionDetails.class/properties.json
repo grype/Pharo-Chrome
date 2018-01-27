@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "ChromeObject",
+	"category" : "Chrome-Core-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"exceptionId",
+		"text",
+		"lineNumber",
+		"columnNumber",
+		"scriptId",
+		"url",
+		"exception",
+		"executionContextId"
+	],
+	"name" : "ChromeScriptExceptionDetails",
+	"type" : "normal"
+}

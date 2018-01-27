@@ -1,3 +1,3 @@
 accessing
-voiceURI
-	^ voiceURI
+voiceUri
+	^ voiceUri

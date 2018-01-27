@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "ChromeObject",
+	"category" : "Chrome-Core-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"result",
+		"responseError",
+		"pluggableResultDescription"
+	],
+	"name" : "ChromeResponse",
+	"type" : "normal"
+}

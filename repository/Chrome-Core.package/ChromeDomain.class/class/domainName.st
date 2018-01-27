@@ -1,0 +1,3 @@
+accessing
+domainName
+	^ self subclassResponsibility 

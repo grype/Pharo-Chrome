@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GRObject",
+	"category" : "Chrome-Core-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ChromeObject",
+	"type" : "normal"
+}

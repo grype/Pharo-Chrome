@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "ChromeObject",
+	"category" : "Chrome-Core-Domain",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"argumentValue",
+		"unserializableValue",
+		"objectId"
+	],
+	"name" : "ChromeCallArgument",
+	"type" : "normal"
+}

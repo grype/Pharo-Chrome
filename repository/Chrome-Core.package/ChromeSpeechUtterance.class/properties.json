@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "ChromeObject",
 	"category" : "Chrome-Core-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -10,7 +10,7 @@
 		"language",
 		"pitch",
 		"rate",
-		"voiceURI",
+		"voiceUri",
 		"volume"
 	],
 	"name" : "ChromeSpeechUtterance",

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MJBasicJsonReader",
+	"category" : "Chrome-Core-Utilities",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ChromeJsonReader",
+	"type" : "normal"
+}

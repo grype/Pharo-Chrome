@@ -12,7 +12,8 @@
 		"description",
 		"url",
 		"webSocketDebuggerUrl",
-		"devtoolsFrontendUrl"
+		"devtoolsFrontendUrl",
+		"callbackManager"
 	],
 	"name" : "ChromeTabPage",
 	"type" : "normal"

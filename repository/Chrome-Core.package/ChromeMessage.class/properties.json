@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "pasha 1/11/2018 12:46",
-	"super" : "Object",
-	"category" : "Chrome-Core",
+	"super" : "ChromeObject",
+	"category" : "Chrome-Core-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [

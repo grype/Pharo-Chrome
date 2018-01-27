@@ -1,3 +1,3 @@
 accessing
-voiceURI: anObject
-	voiceURI := anObject
+voiceUri: anObject
+	voiceUri := anObject

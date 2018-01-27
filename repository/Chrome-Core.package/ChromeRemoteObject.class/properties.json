@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "ChromeObject",
+	"category" : "Chrome-Core-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"type",
+		"subtype",
+		"objectClassName",
+		"rawValue",
+		"unserializableValue",
+		"description",
+		"objectId"
+	],
+	"name" : "ChromeRemoteObject",
+	"type" : "normal"
+}

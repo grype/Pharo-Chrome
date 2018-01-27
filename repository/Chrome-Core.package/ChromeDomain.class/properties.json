@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ChromeObject",
+	"category" : "Chrome-Core-Domain",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"page"
+	],
+	"name" : "ChromeDomain",
+	"type" : "normal"
+}

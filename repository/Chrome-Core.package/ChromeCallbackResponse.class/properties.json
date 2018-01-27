@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "ChromeObject",
+	"category" : "Chrome-Core-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"callbackId",
+		"eventListenerId",
+		"responseData",
+		"responseError"
+	],
+	"name" : "ChromeCallbackResponse",
+	"type" : "normal"
+}

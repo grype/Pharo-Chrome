@@ -1,3 +1,3 @@
 accessing
 callbackManager
-	^ callbackManager
+	^ callbackManager ifNil: [ callbackManager := ChromeCallbackManager new ]

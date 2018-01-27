@@ -1,7 +1,7 @@
 event-listening
 listenForEventsWith: script callback: aBlock
 	| callbackId result |
-	callbackId := callbackManager eventListenerRegistry register: aBlock.
+	callbackId := self callbackManager eventListenerRegistry register: aBlock.
 	result := self runtime
 		evaluate:
 			('

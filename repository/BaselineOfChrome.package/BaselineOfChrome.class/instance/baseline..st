@@ -3,7 +3,7 @@ baseline: spec
 	<baseline>
 
 	spec for: #'common' do: [
-		spec blessing: #'baseline'.
+		spec repository: 'github://grype/Pharo-Chrome:develop/repository'.
 		spec project: 'ZincHTTPComponents' with: [
 				spec
 					className: #ConfigurationOfZincHTTPComponents;

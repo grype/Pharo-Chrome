@@ -4,7 +4,9 @@
 	"category" : "Chrome-Core-Utilities",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"SharedInstance"
+	],
 	"instvars" : [
 		"pool"
 	],

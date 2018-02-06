@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Chrome-Core-Model",
+	"category" : "Chrome-Core-Domain",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [

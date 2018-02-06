@@ -10,5 +10,5 @@ evaluate
 		resultDescription: self remoteObjectDescription , self exceptionDetailsDescription.
 
 	result := response result.
-	result at: #exceptionDetails ifPresent: [ :exception | ChromeScriptError signal: exception ].
+	result at: #exceptionDetails ifPresent: [ :exception | ChromeScriptError new details: exception; signal: exception exception description ].
 	^ result at: #result

@@ -20,9 +20,9 @@ evaluate: anExpressionString callback: aCallbackBlock
 			{3}
 		});
 		promise.then((result)=>\{
-			callback(result);
+			callback(result, null);
 		}, (error)=>\{
-			callback(error);
+			callback(null, error);
 		})
 	})()
 	'

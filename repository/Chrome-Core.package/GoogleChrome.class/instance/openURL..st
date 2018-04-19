@@ -14,7 +14,8 @@ openURL: anURL
 							<< ' --remote-debugging-port=';
 							<< debugPort asString;
 							<< ' ';
-							<< anURL ] ].
+							<< anURL ]. 
+		self isHeadless ifTrue: [ stream << ' --headless' ] ].
 	ChromePlatform current openChromeWith: args.
 	"It can take a while for the browser to actually start.
 	Ping the browser until we get a successfull response."

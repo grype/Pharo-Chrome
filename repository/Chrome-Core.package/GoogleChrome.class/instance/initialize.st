@@ -4,4 +4,6 @@ initialize
 	super initialize.
 	self debugOn.
 	debugPort := GoogleChromeSettings debugPort.
-	host := 'localhost'
+	host := 'localhost'.
+	isHeadless := false.
+	
